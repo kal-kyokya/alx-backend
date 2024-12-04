@@ -1,6 +1,8 @@
 #!/usr/bin/yarn dev
 // Track progress and errors with Kue & create a job processor
 
+import { createQueue, Job } from 'kue';
+
 const BLACKLISTED_NUMBERS = ['4153518780', '4153518781'];
 const queue = createQueue();
 
