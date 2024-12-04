@@ -1,5 +1,5 @@
 #!/usr/bin/yarn dev
-// Script creating a 'Redis client' connected to running 'Redis Server'
+// Script using the client to store a hash value
 
 import { createClient } from 'redis';
 
